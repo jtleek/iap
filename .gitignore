@@ -1,3 +1,6 @@
 .Rproj.user
 .Rhistory
 .RData
+iap.Rcheck/
+iap*.tar.gz
+iap*.tgz
