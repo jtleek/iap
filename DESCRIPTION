@@ -1,0 +1,16 @@
+Package: iap
+Title: A package for correcting statistical inference using predicted outcomes
+Version: 0.0.0.9000
+Authors@R: 
+    c(person("Siruo", "Wang", role = c("aut","cre"), email = "sara.siruo@gmail.com"),
+      person("McCormick", "Tyler", role = c("aut"), email="tyler.h.mccormick@gmail.com"),
+      person("Leek", "Jeffrey", role = c("aut"), email="jtleek@gmail.com")
+    )
+Description: This package is designed to help you perform statistical inference using linear and generalized linear models on outcomes that have been predicted using machine learning models. The approach takes advantage of the (often) simple relationship between observed and predicted outcomes to correct bias and variance in downstream statistical models. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    rlang
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
